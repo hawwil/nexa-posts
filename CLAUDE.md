@@ -37,3 +37,6 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
 
 ## Log
 - 2026-11-03: Scheduled week 1: intro (Nov 4 10:00), contest (Nov 5 18:00), AI tools carousel (Nov 7 18:00), last-chance story (Nov 8 18:00).
+- 2026-11-05: Weekly review: 61 followers (0 gained/lost in 7d). Only intro post live (Nov 4): reach 7, views 17, 2 likes, 0 follows. Account reach 7d ~12. Too early to rank post types; contest goes live tonight.
+  Scheduled week 2: draw-day story (Nov 9 10:00), Canva free vs Pro carousel (Nov 10 18:00), how to order in 3 steps (Nov 12 18:00), "we pay for you" (Nov 14 18:00), ask-which-subscription story (Nov 15 18:00).
+  Owner to film: Gemini CV reel (Nov 11) and Claude 3-things reel (Nov 13). Winner post pending his handle on Nov 9. Week-2 designs: `design/week2.py`.
