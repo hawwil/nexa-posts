@@ -33,10 +33,12 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
 ## Owner's tasks (remind him when relevant)
 - Reels that need screen recordings: write him a short script; he films.
 - Reply to comments within the first hour and DMs the same day.
-- Contest 1 (Canva Pro month) draw on Monday Nov 9, 2026: he picks the winner and sends the handle; Claude designs the winner post.
+- Contest 1 (Canva Pro month) draw EXTENDED to Thursday Nov 12, 2026 (only 1 comment by Nov 8): he picks the winner and sends the handle; Claude designs the winner post.
+- He plans to pay for a promoted (boosted) post once he has money; suggest boosting the best post when he is ready.
 
 ## Log
 - 2026-11-03: Scheduled week 1: intro (Nov 4 10:00), contest (Nov 5 18:00), AI tools carousel (Nov 7 18:00), last-chance story (Nov 8 18:00).
 - 2026-11-05: Weekly review: 61 followers (0 gained/lost in 7d). Only intro post live (Nov 4): reach 7, views 17, 2 likes, 0 follows. Account reach 7d ~12. Too early to rank post types; contest goes live tonight.
   Scheduled week 2: draw-day story (Nov 9 10:00), Canva free vs Pro carousel (Nov 10 18:00), how to order in 3 steps (Nov 12 18:00), "we pay for you" (Nov 14 18:00), ask-which-subscription story (Nov 15 18:00).
   Owner to film: Gemini CV reel (Nov 11) and Claude 3-things reel (Nov 13). Winner post pending his handle on Nov 9. Week-2 designs: `design/week2.py`.
+- 2026-11-08: Week 1 results: intro reach 9, contest reach 122 (4 likes, 1 comment, 2 shares), AI carousel reach 6; followers flat at 61. Diagnosis: distribution, not content. Decisions: extend contest to Nov 12; shift to animated reels (made by Claude, no filming) and easy-comment question posts. Scheduled: extension story (Nov 9 10:00), extension post (Nov 9 18:00), reminder story (Nov 11 18:00).
