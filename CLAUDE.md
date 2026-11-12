@@ -33,7 +33,7 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
 ## Owner's tasks (remind him when relevant)
 - Reels that need screen recordings: write him a short script; he films.
 - Reply to comments within the first hour and DMs the same day.
-- Contest 1 (Canva Pro month) draw EXTENDED to Thursday Nov 12, 2026 (only 1 comment by Nov 8): he picks the winner and sends the handle; Claude designs the winner post.
+- Contest 1 closed Nov 12: only 2 entries, both from his own family, so no named winner was announced (would look rigged). Both get the prize privately; a no-names thank-you post went out instead. Future contests: never announce a relative as winner; wait for outside entries.
 - He plans to pay for a promoted (boosted) post once he has money; suggest boosting the best post when he is ready.
 
 ## Log
@@ -45,3 +45,4 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
 - 2026-11-12: Weekly review: followers 62 (+1 vs 61). Account reach Nov 6-12 ~168. Best post: contest extension (Nov 9) reach 56, 9 likes, 1 comment, 60 shares, 1 follow; contest (Nov 5) reach 123 total. Carousels flop: AI tools reach 7, Canva free vs Pro (Nov 10) reach 6. Lesson: contests/share-driven posts get 10-20x the reach of educational carousels; prefer single-image posts.
   Scheduled week 3 (designs `design/week3.py`): Canva vs Photoshop this-or-that post (Nov 16 18:00), FAQ story (Nov 17 18:00), "why cheap subscriptions die after a week" post (Nov 18 18:00), Contest 2 launch, win a month of Gemini or Claude, draw Thu Nov 26 (Nov 20 18:00, pulled forward from Nov 26 in the plan), contest 2 reminder story (Nov 21 18:00).
   Pending: contest 1 winner handle from owner (draw today) for the winner post; owner to film paid-apps reel (script sent). Contest 2 winner post due Nov 26-27.
+- 2026-11-12 (night): Contest 1 had 2 entries, both his relatives. Decided: both win privately, public thank-you post with no names, scheduled Nov 13 10:00 (`posts/2026-11-13-contest1-thanks.png`, `design/thanks.html`). No winner post needed.
