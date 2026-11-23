@@ -30,6 +30,9 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
 - `base2.css` is the shared stylesheet; `gen.py` builds a numbered carousel; `p1.html`, `p2.html`, `story.html` are references.
 - After rendering, look at every PNG and fix clipped text (gradient-clipped headlines need padding-bottom) before publishing.
 
+## Standing rules from the owner
+- NO contests. Never schedule, design or mention a contest/giveaway (no contest posts, stories, reminders, result posts, or contest plugs in captions), unless he asks again. (Nov 23, 2026)
+
 ## Owner's tasks (remind him when relevant)
 - Reels that need screen recordings: write him a short script; he films.
 - Reply to comments within the first hour and DMs the same day.
@@ -49,3 +52,4 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
 - 2026-11-19: Weekly review: followers 61 (-1 vs 62 on Nov 12; 0 gained, 0 lost per Metricool, ~61-62 all week). Account reach Nov 12-18 ~131. Best post: Canva vs Photoshop this-or-that (Nov 16) reach 79, views 118, 1 like, 1 share. All other feed posts reach 4-8 (thanks Nov 13, how-to-order Nov 13, we-pay-for-you Nov 14, cheap-subscription Nov 18). Lesson: numbered "pick 1/2/3" question posts are the only non-contest format getting reach; keep 1 per week plus contests.
   Scheduled week 4 (designs `design/week4.py`): ChatGPT/Gemini/Claude pick-a-number post with contest plug (Nov 23 18:00), "what should we add next month" poll story (Nov 24 18:00), contest 2 last-chance story (Nov 25 18:00), true-or-false post with answers in caption (Nov 27 18:00), month-1 thank-you + what-next question post (Nov 29 18:00). Nov 26 (draw) and Nov 28 left free for the contest 2 result.
   Pending: contest 2 draw Nov 26; owner to send entries list (only outside, non-family entries can be named as winner) so the result post can be made. Owner to film activation behind-the-scenes reel (script sent).
+- 2026-11-23: Owner said: no more contest posts. Unscheduled (set to draft) the contest 2 last-chance story (Nov 25). Month-thanks post (Nov 29) swapped the "more contests" option for "paid apps" (image `posts/2026-11-29-month-thanks-v2.png` + caption). Contest 2 post (Nov 20) and reminder story (Nov 21) were already live; no contest 2 result post.

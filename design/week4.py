@@ -122,7 +122,7 @@ h2{{position:absolute;top:705px;right:80px;font-size:40px;font-weight:700;color:
 <h2>شو بدكم تشوفوا أكتر الشهر الجاي؟</h2>
 <div class="grid">
 <div class="c"><div class="n">1</div><b>عروض وخصومات</b></div>
-<div class="c"><div class="n">2</div><b>مسابقات أكتر</b></div>
+<div class="c"><div class="n">2</div><b>تطبيقات مدفوعة</b></div>
 <div class="c"><div class="n">3</div><b>شروحات أدوات AI</b></div>
 <div class="c"><div class="n">4</div><b>اشتراكات جديدة</b></div>
 </div>
