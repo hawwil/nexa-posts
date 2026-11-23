@@ -6,6 +6,7 @@ The owner (أبو رضا) handles DMs, comments and customer orders. Talk to him
 ## Business
 NEXA is a digital-services store: official subscriptions with full warranty at best prices (Canva Pro, Adobe, Gemini, Claude, others),
 and buying any digital product for customers who lack a card. Payment: Visa, PayPal, USDT. Orders via Instagram DM.
+New service (launched Nov 24-28, 2026): app development, WebView apps for Android and iPhone, "من فكرة ببالك لتطبيق حقيقي". Never promise App Store publishing (Apple often rejects webview wrappers and needs a $99/yr developer account); for iPhone the practical route is a web app added to the home screen.
 
 ## Goal
 Grow from 61 followers (Nov 3, 2026) to 300 in 30 days, plus first real orders from the page.
@@ -24,6 +25,7 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
   then copy the .ttf to `~/.fonts` and run `fc-cache -f`.
 - Render: HTML/CSS at exact size, `google-chrome --headless=new --no-sandbox --hide-scrollbars --allow-file-access-from-files --screenshot=out.png --window-size=1080,1350 file://...`
 - Sizes: post 1080x1350, story 1080x1920.
+- Reels: animated HTML timeline (`setT(t)`) captured with Playwright, piped to ffmpeg (see `design/apps/render.py`), plus an original synth track from `design/apps/music.py` muxed with `-c:v copy`. Reels must always have sound (owner's rule). Schedule as instagramData type REEL.
 - Colors: background #06040c, text #f5f0ff, purple #7c3aed → #a855f7, accent #c084fc, muted #a99bc7.
 - Layout: right-aligned RTL, 80px side margins, logo band at top (`logo.png`, faded with mask), pill tag, big headline,
   one supporting line, content in rounded translucent purple cards, footer line with CTA/info left and @nexa.ryx.
@@ -53,3 +55,4 @@ Content plan doc: https://claude.ai/artifact/DyqThzD4uM3YuyzWbqWnNG
   Scheduled week 4 (designs `design/week4.py`): ChatGPT/Gemini/Claude pick-a-number post with contest plug (Nov 23 18:00), "what should we add next month" poll story (Nov 24 18:00), contest 2 last-chance story (Nov 25 18:00), true-or-false post with answers in caption (Nov 27 18:00), month-1 thank-you + what-next question post (Nov 29 18:00). Nov 26 (draw) and Nov 28 left free for the contest 2 result.
   Pending: contest 2 draw Nov 26; owner to send entries list (only outside, non-family entries can be named as winner) so the result post can be made. Owner to film activation behind-the-scenes reel (script sent).
 - 2026-11-23: Owner said: no more contest posts. Unscheduled (set to draft) the contest 2 last-chance story (Nov 25). Month-thanks post (Nov 29) swapped the "more contests" option for "paid apps" (image `posts/2026-11-29-month-thanks-v2.png` + caption). Contest 2 post (Nov 20) and reminder story (Nov 21) were already live; no contest 2 result post.
+- 2026-11-23: Launch of app-development service. Scheduled: teaser story (Nov 24 10:00, `posts/2026-11-24-apps-story.png`), reel with original music (Nov 25 18:00, `posts/2026-11-25-apps-reel.mp4`, took the freed contest-story slot), post (Nov 28 18:00, `posts/2026-11-28-apps-post.png`; owner should pin it). Sources in `design/apps/`.
