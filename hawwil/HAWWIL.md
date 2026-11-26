@@ -45,3 +45,4 @@ Profile picture, post1-post5 (intro, how-to steps, aid links, directory, "قري
 
 ## Log
 - 2026-11-26: Metricool switched to @hawwil.ps; 3 pending NEXA posts (Nov 27, 28, 29) set to draft; NEXA task paused; Hawwil weekly task created.
+- 2026-11-26: First daily run. Scheduled: story "كيف بتدفع أجرة التاكسي" 3-option question (10:00, `posts/2026-11-26-taxi-q-story.png`), question post "شو أكتر شي بيلخبطك وقت التحويل" (13:00, `posts/2026-11-26-hardest-q-post.png`), reel "السوّاق ما معه فكة" taxi fare via سائق/صديق, no internet (18:00, 16 s, `posts/2026-11-26-taxi-fare-reel.mp4`, source `design/reel-taxi/`). Shared styles: `design/base.css`, `design/chev.svg`. Numbers: followers 5 (Nov 25). Reels to date: Google Play reach 87 / 100 views (best), aid links 76, steps 50, intro 12, directory 1. Google Play post reach 3. Lesson so far: reels >> posts; aid links and Google Play topics reach most, directory flopped.
