@@ -1,0 +1,53 @@
+<html><head><meta charset="utf-8"><link rel="stylesheet" href="../base.css"><style>
+body{height:1920px}
+.sc{position:absolute;inset:0;opacity:0}
+.cap{position:absolute;left:84px;right:84px;top:300px;text-align:center}
+.cap .k{font-size:44px;font-weight:700;color:#8fa1ba}
+.cap .h{font-size:88px}
+.phone{position:absolute;left:50%;width:640px;margin-left:-320px;border-radius:48px;overflow:hidden;border:10px solid #22344f;box-shadow:0 40px 80px rgba(0,0,0,.5);background:#f5f7fa}
+.phone img{display:block;width:620px}
+.tap{position:absolute;width:150px;height:150px;margin:-75px 0 0 -75px;border-radius:50%;border:8px solid #ffc20e;background:rgba(255,194,14,.18)}
+.chipb{position:absolute;top:250px;right:84px;opacity:.9}
+.chipb .chev{width:60px;height:60px}.chipb{font-size:44px}
+.big{font-size:150px;font-weight:900;line-height:1.2}
+.row{display:flex;justify-content:center;gap:20px;margin-top:50px}
+</style></head><body><div class="bg"></div>
+<div class="chip chipb" id="brand"><img class="chev" src="../chev.svg">حوّل</div>
+<!-- S1 hook 0-3.2 -->
+<div class="sc" id="s1"><div class="cap" style="top:560px">
+<div style="font-size:170px;line-height:1">🚕</div>
+<div class="h" style="font-size:104px;margin-top:40px">السوّاق<br><span class="y">ما معه فكة؟</span></div>
+<div class="k" id="s1b" style="font-size:56px;margin-top:30px;color:#fff">والنت كمان مقطوع...</div></div></div>
+<!-- S2 driver 3.2-6.6 -->
+<div class="sc" id="s2"><div class="cap"><div class="k">افتح حوّل واختار</div><div class="h"><span class="y">سائق / صديق</span></div></div>
+<div class="phone" style="top:600px;height:900px"><img src="../../assets/shot1_home.png" style="margin-top:-40px"><div class="tap" id="t2" style="left:449px;top:338px"></div></div></div>
+<!-- S3 amount 6.6-10 -->
+<div class="sc" id="s3"><div class="cap"><div class="k">اكتب رقمه والمبلغ</div><div class="h">واضغط <span class="y">تابع</span></div></div>
+<div class="phone" style="top:640px;height:580px"><img id="i3" src="../../assets/shot2_form.png"><div class="tap" id="t3" style="left:150px;top:0;width:110px;height:110px;margin:-55px 0 0 -55px;z-index:2;border-color:#0f1c2e;background:rgba(15,28,46,.12)"></div></div></div>
+<!-- S4 code 10-12.9 -->
+<div class="sc" id="s4"><div class="cap"><div class="k">الكود بيطلع جاهز</div><div class="h">و<span class="y">بدون إنترنت</span></div></div>
+<div class="phone" style="top:620px;height:700px"><img src="../../assets/shot3_code.png"></div></div>
+<!-- S5 end 12.9-16 -->
+<div class="sc" id="s5"><div class="cap" style="top:520px">
+<div class="chip" style="justify-content:center;font-size:150px;gap:34px"><img class="chev" style="width:180px;height:180px" src="../chev.svg">حوّل</div>
+<div class="h" style="font-size:72px;margin-top:50px">الأجرة وصلت<br><span class="y">بأقل من 10 ثواني</span></div>
+<div class="row"><div class="tag">مجاني</div><div class="tag">بدون إنترنت</div><div class="tag">بدون إعلانات</div></div>
+<div style="margin-top:60px"><span class="btn" style="font-size:44px;padding:20px 48px">الرابط بالبايو</span></div>
+<div class="k" style="font-size:30px;margin-top:40px">قريباً على Google Play</div></div></div>
+<script>
+const $=id=>document.getElementById(id);
+const cl=x=>Math.max(0,Math.min(1,x)), ease=x=>1-Math.pow(1-cl(x),3);
+function show(el,t,a,b){const i=ease((t-a)/.35), o=1-ease((t-(b-.3))/.3); const v=Math.min(i,o);
+ el.style.opacity=v; el.style.transform=`translateY(${(1-i)*60}px) scale(${.96+.04*i})`;}
+function setT(t){
+ show($('s1'),t,0,3.2); $('s1b').style.opacity=ease((t-1.3)/.4);
+ show($('s2'),t,3.2,6.6); show($('s3'),t,6.6,10); show($('s4'),t,10,12.9);
+ const e=ease((t-12.9)/.5); $('s5').style.opacity=e; $('s5').style.transform=`scale(${.9+.1*e})`;
+ $('brand').style.opacity=(t>3.2&&t<12.9)?.9:0;
+ const p2=(t-4.6); $('t2').style.opacity=p2>0&&p2<1.6?1:0; $('t2').style.transform=`scale(${.6+.5*cl(p2/.4)})`;
+ // S3: scroll image up to show amount + button
+ const s=ease((t-7.3)/1.0); $('i3').style.marginTop=(-300*s)+'px';
+ $("t3").style.top="522px"; const p3=t-8.7; $('t3').style.opacity=p3>0&&p3<1.2?1:0; $('t3').style.transform=`scale(${.6+.5*cl(p3/.4)})`;
+}
+setT(0);
+</script></body></html>
